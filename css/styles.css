@@ -6,11 +6,12 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: white;
-  background-color: brown; }
+  background-color: #331900; }
 
 
   }
 
-  body img {
+ body img {
+      max-width: 25%;
 
             }
