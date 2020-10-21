@@ -1,7 +1,39 @@
-body {
-	font-family: sans-serif;
 
-	img {
-		width: 100%;
-	}
+
+body {
+	font-family: serif;
+	background-image: url("../images/blackboard-texture.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	background-color: grey;
+}
+header {
+	text-align: center;
+}
+
+section {
+	display: flex;
+	align-items: left;
+	justify-content: space-around;
+	flex-basis: 0;
+	flex-wrap: wrap;
+}
+article {
+	max-width: 400px;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-basis: 0;
+	flex-wrap: wrap;
+}
+.content {
+
+}
+.content img {
+
 }

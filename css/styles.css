@@ -1,17 +1,29 @@
 body {
-  font-family: sans-serif;
-  background-image: url("../images/pexels-pixabay-326311.jpg");
+  font-family: serif;
+  background-image: url("../images/blackboard-texture.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
-  background-color: #331900; }
+  background-color: grey; }
 
+header {
+  text-align: center; }
 
-  }
+section {
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+  flex-basis: 0;
+  flex-wrap: wrap; }
 
- body img {
-      max-width: 25%;
+article {
+  max-width: 400px; }
 
-            }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-basis: 0;
+  flex-wrap: wrap; }
