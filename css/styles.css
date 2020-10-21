@@ -11,19 +11,12 @@ body {
 header {
   text-align: center; }
 
-section {
-  display: flex;
-  align-items: left;
-  justify-content: space-around;
-  flex-basis: 0;
-  flex-wrap: wrap; }
-
-article {
-  max-width: 400px; }
-
-.container {
+.recipe {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-basis: 0;
   flex-wrap: wrap; }
+
+.recipecontent {
+  max-width: 400px; }
